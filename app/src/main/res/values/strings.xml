@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MythoSnap</string>
+    <string name="app_widget_text" translatable="false">MythoSnap</string>
+
+    <!-- Title menu xml -->
+    <string name="refresh">Refresh</string>
+    <string name="blank" translatable="false">" "</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Content Description layout xml -->
+    <string name="fab_add_story">Add Story</string>
+    <string name="btn_gallery">Choose an Image from Gallery</string>
+    <string name="btn_shutter_camera">Take photo</string>
+    <string name="btn_switch_camera">Rotate camera</string>
+    <string name="avatar">Default Avatar Image</string>
+    <string name="image_story">User Story Image</string>
+    <string name="btn_app_setting">Open Related App Settings</string>
+    <string name="btn_jump_up">Button scroll top</string>
+    <string name="btn_camera_back">Button back homescreen</string>
+    <string name="btn_camera_info">Button dialog Info</string>
+
+    <!-- Constant Value text -->
+    <string name="loading" translatable="true">Loading</string>
+    <string name="dummy_text" translatable="false">Dummy Text</string>
+    <string name="person_name" translatable="false">Person Name</string>
+    <string name="uploaded_date">Uploaded at 30 April 2022 00.00</string>
+    <string name="story_description_hint">Mind to share your memories?</string>
+    <string name="copyright" translatable="false">\ Bagas Putra Pratama</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_email" translatable="false">Email</string>
+    <string name="txt_password" translatable="false">Password</string>
+    <string name="txt_auth_question_login">dont have an account?</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_auth_question_register">I have an account</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_setting">Setting</string>
+    <string name="txt_change_language">Change Language</string>
+    <string name="txt_permission">Change App Permission</string>
+    <string name="txt_uploaded">Uploaded</string>
+    <string name="txt_seconds_ago">seconds ago</string>
+    <string name="txt_minutes_ago">minutes ago</string>
+    <string name="txt_hours_ago">hours ago</string>
+    <string name="txt_days_ago">days ago</string>
+    <string name="txt_time_on">on</string>
+    <string name="empty_text" translatable="false">NO DATA</string>
+    <string name="update_data" translatable="false">Update Data</string>
+
+    <!-- Button text layout xml -->
+    <string name="btn_txt_ok">ok</string>
+    <string name="btn_txt_upload_story">Upload Story</string>
+    <string name="btn_txt_signin">Sign In</string>
+    <string name="btn_txt_signup">Sign Up</string>
+    <string name="btn_txt_logout">Logout</string>
+
+    <!-- API error and response -->
+    <string name="success_upload">Image uploaded successfully</string>
+    <string name="error_unauthorized">Email address not registered / Wrong Email or Password</string>
+    <string name="error_email_invalid">Invalid email format</string>
+    <string name="error_header_token">Unauthorized detected, please re-login for Token renewal</string>
+    <string name="error_large_payload">Your image exceeds the maximum limit of 1 MB size, compress your image perhaps?</string>
+    <string name="error_send_payload">Error while send image</string>
+    <string name="error_fetch_data">Error while fetching data</string>
+
+    <!-- UI Error -->
+    <string name="empty_story_description">Description must be filled</string>
+    <string name="empty_email_password">Email and Password must be filled</string>
+    <string name="validation_invalid_email">Email format invalid</string>
+    <string name="validation_empty_email_password_name">Name, Email, and Password must be filled</string>
+    <string name="validation_password_rules">Password must contain at least 8 characters</string>
+    <string name="info_successful_register_user">User registration success, redirect you to login page</string>
+    <string name="error_permission_denied">
+        Permision Denied \n\n Please do the following steps : \n
+        1. Open profile menu and choose App Permissions \n
+        2. Select permission on app info \n
+        3. Select permission for camera \n
+        4. Select the option allow
+    </string>
+    <string name="error_take_photo">Failed take a picture</string>
+</resources>

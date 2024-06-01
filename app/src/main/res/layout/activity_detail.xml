@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.DetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/ic_baseline_arrow_toolbar"
+        app:title="Detail Story"
+        app:titleTextColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginStart="24dp"
+        android:layout_marginVertical="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/person_name"
+        android:textColor="@color/pink1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:transitionName="user_name"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/container_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_below="@+id/tv_detail_name"
+        app:cardCornerRadius="24dp">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_detail_photo"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:contentDescription="@string/image_story"
+            android:transitionName="story_image"
+            tools:ignore="ImageContrastCheck"
+            tools:srcCompat="@tools:sample/avatars"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollable"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/container_image"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_detail_description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineHeight="25dp"
+                android:text="@string/dummy_text"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:transitionName="story_description"
+                tools:targetApi="p" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/story_upload_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollable"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/gray"
+        android:text="@string/uploaded_date"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:transitionName="story_upload_time" />
+</RelativeLayout>

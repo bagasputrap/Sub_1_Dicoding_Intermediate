@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MythoSnap</string>
+
+    <!-- Title menu -->
+    <string name="refresh">Refresh</string>
+    <string name="blank" >" "</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Content Description-->
+    <string name="fab_add_story">Tambah Story</string>
+    <string name="btn_gallery">Pilih gambar dari Galeri</string>
+    <string name="btn_shutter_camera">Ambil Gambar</string>
+    <string name="btn_switch_camera">Pindah Kamera</string>
+    <string name="avatar">Avatar</string>
+    <string name="image_story">Gambar Story Pengguna</string>
+    <string name="btn_app_setting">Buka pengaturan terkait</string>
+    <string name="btn_jump_up">Scroll top</string>
+    <string name="btn_camera_back">Tombol kembali ke halaman utama</string>
+    <string name="btn_camera_info">Tombol informasi halaman kamera</string>
+
+    <!-- Constant Value -->
+    <string name="loading" translatable="true">Memuat</string>
+    <string name="uploaded_date">diupload pada 30 April 2022 00.00</string>
+    <string name="story_description_hint">Apa yang mau dibagikan hari ini?</string>
+    <string name="txt_auth_question_login">Tidak punya akun ?</string>
+    <string name="txt_register">Daftar</string>
+    <string name="txt_login">Masuk</string>
+    <string name="txt_auth_question_register">Sudah punya akun</string>
+    <string name="txt_name">Nama</string>
+    <string name="txt_setting">Pengaturan</string>
+    <string name="txt_change_language">Ubah Bahasa</string>
+    <string name="txt_permission">Atur izin Aplikasi</string>
+    <string name="txt_uploaded">Terunggah</string>
+    <string name="txt_seconds_ago">detik yang lalu</string>
+    <string name="txt_minutes_ago">menit yang lalu</string>
+    <string name="txt_hours_ago">jam yang lalu</string>
+    <string name="txt_days_ago">hari yang lalu</string>
+    <string name="txt_time_on">pada</string>
+
+    <!-- Button text -->
+    <string name="btn_txt_ok">ok</string>
+    <string name="btn_txt_upload_story">Unggah Story</string>
+    <string name="btn_txt_signin">Masuk</string>
+    <string name="btn_txt_signup">Daftar</string>
+    <string name="btn_txt_logout">Keluar</string>
+
+    <!-- API error and Response -->
+    <string name="success_upload">Gambar berhasil diunggah</string>
+    <string name="error_unauthorized">Alamat Email tidak terdaftar / Email atau Kata sandi salah</string>
+    <string name="error_email_invalid">Format Email tidak valid</string>
+    <string name="error_header_token">Kamu tidak memiliki akses, silahkan login ulang untuk pembaruan Token</string>
+    <string name="error_large_payload">Gambar melebihi batas maks 1 MB, kurangi ukuran file mungkin?</string>
+    <string name="error_send_payload">Eror ketika mengirim gambar</string>
+    <string name="error_fetch_data">Eror memuat data</string>
+
+    <!-- UI error -->
+    <string name="empty_story_description">Deskripsi konten harus diisi</string>
+    <string name="empty_email_password">Email dan Password harus diisi</string>
+    <string name="validation_invalid_email">Format email tidak valid</string>
+    <string name="validation_empty_email_password_name">Nama, Email dan password harus diisi</string>
+    <string name="validation_password_rules">Password harus berisi minimal 8 karakter</string>
+    <string name="info_successful_register_user">Registrasi pengguna berhasil, pindah ke halaman login</string>
+    <string name="error_permission_denied">
+        Permission ditolak \n\n Silahkan melakukan langkah berikut : \n
+        1. Buka menu profile dan buka Permission aplikasi \n
+        2. Pilih izin pada info aplikasi \n
+        3. Pilih izin untuk kamera \n
+        4. Pilih opsi izinkan
+    </string>
+    <string name="error_take_photo">Gagal mengambil gambar</string>
+</resources>
